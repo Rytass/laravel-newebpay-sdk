@@ -1,0 +1,25 @@
+{
+    "name": "ptstaiwan/laravel-newebpay-sdk",
+    "description": "boss tag client for pts taiwan",
+    "type": "library",
+    "authors": [
+        {
+            "name": "kevinchan",
+            "email": "kevinchan@newmedia.pts.org.tw"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "illuminate/config": ">=5.1",
+        "illuminate/contracts": ">=5.1",
+        "illuminate/log": ">=5.1",
+        "illuminate/support": ">=5.1",
+        "nesbot/carbon": ">=1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PtsTaiwan\\LaravelNewebpaySDK\\": "src"
+        }
+    }
+}
